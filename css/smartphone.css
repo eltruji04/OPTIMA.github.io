@@ -1,0 +1,329 @@
+.header_smartphone {
+    background-color: #feffff;
+    position: fixed top;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    height: 68px;
+    width: 100%;
+    padding: 10px 10%;
+}
+
+.logo_smartphone {
+    margin-right: auto;
+    margin-left: 0px;
+}
+
+.logo_smartphone img {
+    width: auto;
+    height: 68px;
+}
+
+.btn_smartphone button {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 15;
+    color: #ffffff;
+    padding: 6px 12px;
+    background: #2663eb;
+    border: 1.6px solid #2663eb;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-sizing: border-box;
+}
+
+.btn_smartphone button:hover {
+    border-color: #2663eb;
+    background-color: #feffff;
+    color: #1f2937;
+}
+
+.translate_smartphone {
+    padding-left: 10px;
+}
+
+.introduction_smartphone {
+    background-color: #f0f7ff;
+    height: 340px;
+    position: static;
+    align-items: center;
+    display: flex;
+    padding: 0 6%;
+}
+
+.introduction_smartphone h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 30;
+}
+
+.introduction_smartphone p {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 15;
+    color: #535d6a;
+}
+
+.button_blue_smartphone button{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 15;
+    margin-left: 15px;
+    color: #ffffff;
+    padding: 12px 18px;
+    background: #2663eb;
+    border: 1.6px solid #2663eb;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-sizing: border-box;
+}
+
+.button_blue_smartphone button:hover {
+    border-color: #2663eb;
+    background-color: #feffff;
+    color: #1f2937;
+}
+
+.button_white_smartphone button {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 15;
+    margin-left: 15px;
+    color: #2663eb;
+    padding: 12px 18px;
+    background: #feffff;
+    border: 1.6px solid #2663eb;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-sizing: border-box;
+}
+
+.button_white_smartphone button:hover {
+    border-color: #2663eb;
+    background-color: #2663eb;
+    color: #ffffff;
+}
+
+.container_smartphone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.centered_subtitle_smartphone {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 22;
+}
+
+.benefits_smartphone {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.containers_smartphone {
+    border-radius: 16px;
+    background-color: #f0f7ff;
+    padding: 10px 24px;
+    height: 190px;
+    width: 86%;
+    margin-bottom: 30px;
+}
+
+.sub_logo_smartphone {
+    height: 40px;
+    margin-top: 14px;
+    padding-left: 16px;
+}
+
+.subtitle_smartphone {
+    padding-top: 15px;
+    padding-left: 16px;
+    font-size: 16;
+}
+
+.description_smartphone {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 14;
+    color: #535d6a;
+    padding-top: 14px;
+    padding-left: 16px;
+    line-height: 23px;
+}
+
+.members_smartphone {
+    background-color: #f9fafb;
+}
+
+.centered_subtitle_members_smartphone {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 28;
+}
+
+.foto_styles_smartphone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.member_smartphone {
+    text-align: center;
+
+}
+
+.foto_smartphone {
+    border-radius: 100%;
+    width: 180px;
+    box-shadow: 4px 4px 50px rgba(137, 137, 137, 0.6),
+                -4px 0 60px rgba(137, 137, 137, 0.6);
+}
+
+.member_name_smartphone {
+    margin-top: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 24;
+}
+
+
+.member_description_smartphone {
+    margin-top: 12px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16;
+    color: #535d6a;
+    margin-bottom: 40px;
+}
+
+.our_vision_smartphone {
+    background-color: #2663eb;
+
+}
+
+.sub_vision_smartphone {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    color: white;
+    font-size: 28;
+}
+
+.text_vision_smartphone {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 15;
+    color: white;
+    justify-content: center;
+    display: flex;
+    padding: 0 6%;
+    line-height: 20px;
+    padding-bottom: 28px;
+}
+
+.footer_smartphone {
+    background-color: #111827;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    height: 620px;
+}
+
+.contact_us_smartphone {
+    color: white;
+    margin-top: 20px;
+    font-size: 28;
+}
+
+.send_btn_smartphone {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 15;
+    margin-top: 30px;
+    color: #ffffff;
+    padding: 10px;
+    background: #2663eb;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-sizing: border-box;
+    width: 160px;
+}
+
+.text_footer_smartphone {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 12;
+    color: #9ca3af;
+    padding-top: 20px;
+    line-height: 23px;
+}
+
+.logo_github_smartphone {
+    margin-top: 10px;
+    width: 36px;
+}
+
+.footer-divider_smartphone {
+    border: none;
+    border-top: 1.6px solid #282d35;
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.copyright_smartphone {
+    text-align: center;
+    font-size: 14px;
+    color: #9ca3af;
+    margin-top: 30px;
+}
+
+.form_smartphone {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.input_smartphone {
+    background-color: #1f2937;
+    border: 1px solid #454f5f;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 10px;
+    width: 98%;
+    color: white;
+    font-size: 18px;
+}
+
+.textarea_smartphone {
+    background-color: #1f2937;
+    border: 1px solid #454f5f;
+    border-radius: 8px;
+    color: white;
+    margin-top: 15px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 120px;
+    max-height: 120px;
+    font-size: 18px;
+}

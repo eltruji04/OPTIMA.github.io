@@ -1,5 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&display=swap");
 
+.resolution {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .desktop {
+    display: none;
+  }
+  .tablet {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .desktop {
+    display: none;
+  }
+  .smartphone {
+    display: none;
+  }
+}
+
+@media (min-width: 991px) {
+  .tablet {
+    display: none;
+  }
+  .smartphone {
+    display: none;
+  }
+}
+
+
 /* Ensures the entire screen is used */
 * {
   box-sizing: border-box;
@@ -286,7 +318,7 @@ body {
   border-radius: 100%;
   width: 230px;
   box-shadow: 4px 4px 50px rgba(137, 137, 137, 0.6),
-    -4px 0 60px rgba(137, 137, 137, 0.6);
+              -4px 0 60px rgba(137, 137, 137, 0.6);
 }
 
 .member_name {
@@ -325,8 +357,7 @@ body {
   color: white;
   justify-content: center;
   display: flex;
-  margin-left: 300px;
-  margin-right: 300px;
+  padding: 0 6%;
   line-height: 32px;
 }
 
