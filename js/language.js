@@ -5,11 +5,14 @@ document
     const selectedLanguage = event.target.value;
 
     // Encuentra todos los elementos con atributos 'data-en', 'data-es', 'data-fr', etc.
-    const elements = document.querySelectorAll("[data-en]");
+    const elements = document.querySelectorAll("[data-en], [data-es], [data-fr]");
 
     // Cambia el contenido dinámicamente según el idioma seleccionado
     elements.forEach((element) => {
-      element.textContent = element.getAttribute(`data-${selectedLanguage}`);
+      const translation = element.getAttribute(`data-${selectedLanguage}`);
+      if (translation) {
+        element.textContent = translation;
+      }
     });
   });
 
@@ -22,4 +25,19 @@ window.addEventListener("DOMContentLoaded", () => {
     languageSelector.value = userLang; // Establece el idioma inicial
     languageSelector.dispatchEvent(new Event("change")); // Actualiza el contenido
   }
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const languageSelectors = document.querySelectorAll("#language-selector");
+
+  languageSelectors.forEach((selector) => {
+    selector.addEventListener("change", (event) => {
+      const selectedLanguage = event.target.value;
+
+      // Actualizar los textos según el idioma seleccionado
+      document.querySelectorAll("[data-en]").forEach((element) => {
+        element.textContent = element.dataset[selectedLanguage];
+      });
+    });
+  });
 });
