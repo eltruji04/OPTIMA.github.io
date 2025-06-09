@@ -69,6 +69,12 @@
     color: #535d6a;
   }
 
+  .container_tablet {
+    margin-top: 30px;
+    align-items: center
+  }
+  
+
   /* Styles the 'Get Started' button */
 .button_blue_tablet button {
   font-family: "Inter", sans-serif;
@@ -114,43 +120,45 @@
   color: #ffffff;
 }
 
-.benefits_tablet {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+/* --------------------------------------------> Introduction Part */
+
+/* Centers subtitle for the section */
+.centered_subtitle {
+    text-align: center;
+    padding-bottom: 8px;
+    border-bottom: 4px solid #007BFF;
+    display: inline-block;
+    margin: 0 auto 30px;
+    margin-top: 70px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 36;
+  }
+  
+  .Introducion_tablet {
     align-items: center;
-}
-
-.container_tablet {
+    margin: 40px 90px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20;
+    color: #000000;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 34px;
-}
-
-.containers_tablet {
-  border-radius: 16px;
-  background-color: #f0f7ff;
-  padding: 10px 24px;
-  height: 230px;
-  width: 380px;
-  margin-bottom: 30px;
-}
-
-.centered_subtitle_tablet {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-}
-
-.containers_tablet {
-    border-radius: 16px;
-    background-color: #f0f7ff;
-    padding: 10px 24px;
-    height: 230px;
-    width: 380px;
-}
+    justify-content: space-between;
+    padding: 20px;
+    line-height: 29px;
+  }
+  
+  .intext_tablet {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 22;
+    text-align: left;
+  }
+  
+  .intext_tablet p {
+    margin-bottom: 24px; 
+  }
 
 .sub_logo_tablet {
     height: 44px;
@@ -226,7 +234,7 @@
     display: flex;
     justify-content: center;
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 24px;
     color: white;
 }
 
