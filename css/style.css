@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+a{
+  text-decoration: none;
+}
+
 @media (max-width: 767px) {
   .desktop {
     display: none;
@@ -180,7 +184,7 @@ body {
   justify-content: center;
 }
 
-/* Styles the 'Get Started' button */
+/* Styles the 'My aircraft' button */
 .introduction .button_blue button {
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -194,6 +198,7 @@ body {
   cursor: pointer;
   transition: all 0.3s ease 0s;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 /* Button hover animation */
@@ -201,9 +206,10 @@ body {
   border-color: #2663eb;
   background-color: #feffff;
   color: #1f2937;
+  text-decoration:ls  none;
 }
 
-/* Styles for the 'Learn More' button */
+/* Styles for the 'My workshop' button */
 .introduction .button_white button {
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -217,12 +223,14 @@ body {
   cursor: pointer;
   transition: all 0.3s ease 0s;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 .introduction .button_white button:hover {
   border-color: #2663eb;
   background-color: #2663eb;
   color: #ffffff;
+  text-decoration: none;
 }
 
 /* --------------------------------------------> Introduction Part */

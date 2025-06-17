@@ -1,0 +1,335 @@
+.header_tablet {
+    background-color: #feffff;
+    position: fixed top;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    height: 68px;
+    width: 100%;
+    padding: 0 10%;
+}
+
+.logo_tablet {
+    margin-right: auto;
+    margin-left: 0px;
+}
+
+.logo_tablet img {
+    width: auto;
+    height: 68px;
+}
+
+.btn_tablet button {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 15;
+    margin-right: 8px;
+    color: #ffffff;
+    padding: 8px 15px;
+    background: #2663eb;
+    border: 1.6px solid #2663eb;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-sizing: border-box;
+}
+
+.btn_tablet button:hover {
+    border-color: #2663eb;
+    background-color: #feffff;
+    color: #1f2937;
+}
+
+  /* Positions the language switch option */
+.translate_tablet {
+    padding-left: 18px;
+}
+
+.introduction_tablet {
+    background-color: #f0f7ff;
+    height: 520px;
+    position: static;
+    align-items: center;
+    display: flex;
+    padding: 0 6%;
+}
+
+.introduction_tablet h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 50;
+  }
+  
+  /* Text font, size, and color */
+.introduction_tablet p {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 22;
+    color: #535d6a;
+  }
+
+  /* Styles the 'Get Started' button */
+.button_blue_tablet button {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15;
+  margin-left: 15px;
+  color: #ffffff;
+  padding: 20px 40px;
+  background: #2663eb;
+  border: 1.6px solid #2663eb;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  box-sizing: border-box;
+}
+
+/* Button hover animation */
+.button_blue_tablet button:hover {
+  border-color: #2663eb;
+  background-color: #feffff;
+  color: #1f2937;
+}
+
+/* Styles for the 'Learn More' button */
+.button_white_tablet button {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15;
+  margin-left: 15px;
+  color: #2663eb;
+  padding: 20px 40px;
+  background: #feffff;
+  border: 1.6px solid #2663eb;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  box-sizing: border-box;
+}
+
+.button_white_tablet button:hover {
+  border-color: #2663eb;
+  background-color: #2663eb;
+  color: #ffffff;
+}
+
+.benefits_tablet {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container_tablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34px;
+}
+
+.containers_tablet {
+  border-radius: 16px;
+  background-color: #f0f7ff;
+  padding: 10px 24px;
+  height: 230px;
+  width: 380px;
+  margin-bottom: 30px;
+}
+
+.centered_subtitle_tablet {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.containers_tablet {
+    border-radius: 16px;
+    background-color: #f0f7ff;
+    padding: 10px 24px;
+    height: 230px;
+    width: 380px;
+}
+
+.sub_logo_tablet {
+    height: 44px;
+    margin-top: 24px;
+    padding-left: 16px;
+}
+
+.subtitle_tablet {
+    padding-top: 4px;
+    padding-left: 16px;
+}
+
+.description_tablet {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16;
+    color: #535d6a;
+    padding-top: 28px;
+    padding-left: 16px;
+    line-height: 23px;
+}
+
+.members_tablet {
+    background-color: #f9fafb;
+    height: 520px;
+}
+
+.centered_subtitle_members_tablet {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.foto_styles_tablet{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+
+.member_tablet {
+    text-align: center;
+}
+
+.foto_tablet {
+    border-radius: 100%;
+    width: 230px;
+    box-shadow: 4px 4px 50px rgba(137, 137, 137, 0.6),
+                -4px 0 60px rgba(137, 137, 137, 0.6);
+}
+
+.member_name_tablet {
+    margin-top: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 24;
+}
+
+.member_description_tablet {
+    margin-top: 12px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16;
+    color: #535d6a;
+}
+
+.our_vision_tablet {
+    background-color: #2663eb;
+    height: 300px;
+}
+
+.sub_vision_tablet {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.text_vision_tablet {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20;
+    color: white;
+    justify-content: center;
+    display: flex;
+    padding: 0 6%;
+    line-height: 32px;
+}
+
+.footer_tablet {
+    background-color: #111827;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    height: 620px;
+}
+
+.contact_us_tablet {
+  color: white;
+  margin-top: 20px;
+}
+
+form {
+  width: 700px;
+  margin: auto;
+}
+
+input {
+  background-color: #1f2937;
+  border: 1px solid #454f5f;
+  border-radius: 8px;
+  margin-top: 15px;
+  padding: 10px;
+  width: 550px;
+  color: white;
+  font-size: 18px;
+}
+
+textarea {
+  background-color: #1f2937;
+  border: 1px solid #454f5f;
+  border-radius: 8px;
+  color: white;
+  margin-top: 15px;
+  padding: 10px;
+  min-width: 550px;
+  max-width: 550px;
+  min-height: 120px;
+  max-height: 120px;
+  font-size: 18px;
+}
+
+.send_btn_tablet {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 15;
+    margin-top: 30px;
+    color: #ffffff;
+    padding: 10px;
+    background: #2663eb;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-sizing: border-box;
+    width: 160px;
+}
+
+.logo_footer_tablet {
+    width: 150px;
+}
+
+.text_footer_tablet {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16;
+    color: #9ca3af;
+    padding-top: 20px;
+    line-height: 23px;
+}
+
+.logo_github_tablet {
+    margin-top: 10px;
+    width: 50px;
+}
+
+.footer-divider_tablet {
+    border: none;
+    border-top: 1.2px solid #282d35;
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.copyright_tablet {
+    text-align: center;
+    font-size: 18px;
+    color: #9ca3af;
+    margin-top: 30px;
+}

@@ -1,4 +1,4 @@
-@imageimport url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&display=swap");
 
 .resolution {
   text-align: center;
@@ -152,6 +152,7 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 48;
+  text-align: left;
 }
 
 /* Text font, size, and color */
@@ -160,11 +161,14 @@ body {
   font-weight: 600;
   font-size: 20;
   color: #535d6a;
+  text-align: left;
 }
 
 /* Creates the container for the text */
 .introduction .text_part {
-  height: 300px;
+  height: 340px;
+  width: 1300px;
+  padding-right: 2%;
 }
 
 /* Text positioning */
@@ -229,7 +233,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 550px;
+  height: 500px;
   width: 1100px;
   background-color: #feffff;
   border-radius: 12px;
@@ -360,227 +364,6 @@ body {
   display: flex;
   padding: 0 6%;
   line-height: 32px;
-}
-
-/* --------------------------------------------> Footer */
-footer {
-  background-color: #111827;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px 0;
-  height: 660px;
-}
-
-.division_footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2px;
-  width: 100%;
-  height: 520px;
-}
-
-.frame {
-  padding: 16%;
-}
-
-.contact_us {
-  color: white;
-  margin-top: 20px;
-}
-
-form {
-  width: 700px;
-  margin: auto;
-}
-
-input {
-  background-color: #1f2937;
-  border: 1px solid #454f5f;
-  border-radius: 8px;
-  margin-top: 15px;
-  padding: 10px;
-  width: 550px;
-  color: white;
-  font-size: 18px;
-}
-
-textarea {
-  background-color: #1f2937;
-  border: 1px solid #454f5f;
-  border-radius: 8px;
-  color: white;
-  margin-top: 15px;
-  padding: 10px;
-  min-width: 550px;
-  max-width: 550px;
-  min-height: 120px;.introduction .button_white button {
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    font-size: 15;
-    margin-left: 15px;
-    color: #2663eb;
-    padding: 15px 32px;
-    background: #feffff;
-    border: 1.6px solid #2663eb;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    box-sizing: border-box;
-  }
-  
-  .introduction .button_white button:hover {
-    border-color: #2663eb;
-    background-color: #2663eb;
-    color: #ffffff;
-  }
-  max-height: 120px;
-  font-size: 18px;
-}
-
-.send_btn {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 15;
-  margin-top: 30px;
-  color: #ffffff;
-  padding: 10px;
-  background: #2663eb;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  box-sizing: border-box;
-  width: 160px;
-}
-
-.send_btn:hover {
-  background-color: #0142d0;
-  color: rgb(255, 255, 255);
-}
-
-.logo_footer {
-  width: 150px;
-}
-
-.text_footer {
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  font-size: 16;
-  color: #9ca3af;
-  padding-top: 20px;
-  line-height: 23px;
-}
-
-.logo_github {
-  margin-top: 10px;
-  width: 50px;
-}
-
-.footer-divider {
-  border: none;
-  border-top: 1.2px solid #282d35;
-  width: 84%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.copyright {
-  text-align: center;
-  font-size: 18px;
-  color: #9ca3af;
-  margin-top: 30px;
-}
-.introduction .button_white button {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 15;
-  margin-left: 15px;
-  color: #2663eb;
-  padding: 15px 32px;
-  background: #feffff;
-  border: 1.6px solid #2663eb;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  box-sizing: border-box;
-}
-
-.introduction .button_white button:hover {
-  border-color: #2663eb;
-  background-color: #2663eb;
-  color: #ffffff;
-}
-.download-dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropbtn {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 15;
-  margin-left: 15px;
-  color: #2663eb;
-  padding: 15px 32px;
-  background: #feffff;
-  border: 1.6px solid #2663eb;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  box-sizing: border-box;
-}
-
-.dropbtn:hover {
-  border-color: #2663eb;
-  background-color: #2663eb;
-  color: #ffffff;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-  z-index: 1;
-  border-radius: 5px;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  border-radius: 5px;
-}
-
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
-}
-
-.download-dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.introduction .button_white button {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 15;
-  margin-left: 15px;
-  color: #2663eb;
-  padding: 15px 32px;
-  background: #feffff;
-  border: 1.6px solid #2663eb;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  box-sizing: border-box;
-}
-
-.introduction .button_white button:hover {
-  border-color: #2663eb;
-  background-color: #2663eb;
-  color: #ffffff;
 }
 
 /* --------------------------------------------> Footer */
