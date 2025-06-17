@@ -655,3 +655,66 @@ textarea {
   background-color: #2663eb;
   color: #ffffff;
 }
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.team-members-carousel {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.team-members {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  gap: 20px;
+}
+
+.team-member {
+  min-width: calc(25% - 15px); /* 4 por fila */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.carousel-button:hover {
+  background-color: #007BFF;
+  color: white;
+  border-color: #007BFF;
+  transform: translateY(-50%) scale(1.1);
+}
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}

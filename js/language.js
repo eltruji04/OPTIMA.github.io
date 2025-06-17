@@ -41,3 +41,54 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+// Seleccionar el slider y los botones
+const slider = document.getElementById('team-slider');
+const prevBtn = document.querySelector('.carousel-button.prev');
+const nextBtn = document.querySelector('.carousel-button.next');
+
+// Validar que los elementos existan
+if (!slider || !prevBtn || !nextBtn) {
+  console.warn("No se encontraron los elementos del carrusel.");
+} else {
+  let index = 0;
+  const visibleMembers = 4;
+  const totalMembers = slider.children.length;
+
+  function updateSlider() {
+    const offset = -index * (100 / visibleMembers);
+    slider.style.transform = `translateX(${offset}%)`;
+  }
+
+  // Eventos de click y touch
+  prevBtn.addEventListener('click', () => {
+    if (index > 0) {
+      index--;
+      updateSlider();
+    }
+  });
+
+  nextBtn.addEventListener('click', () => {
+    if (index < totalMembers - visibleMembers) {
+      index++;
+      updateSlider();
+    }
+  });
+
+  // Soporte táctil (opcional pero recomendado)
+  prevBtn.addEventListener('touchstart', (e) => {
+    e.preventDefault(); // Evitar comportamiento predeterminado
+    if (index > 0) {
+      index--;
+      updateSlider();
+    }
+  });
+
+  nextBtn.addEventListener('touchstart', (e) => {
+    e.preventDefault(); // Evitar comportamiento predeterminado
+    if (index < totalMembers - visibleMembers) {
+      index++;
+      updateSlider();
+    }
+  });
+}
