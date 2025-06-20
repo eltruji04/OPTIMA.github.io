@@ -442,7 +442,7 @@ footer {
   flex-direction: column;
   align-items: center;
   padding: 20px 0;
-  height: 660px;
+  height: 700px;
 }
 
 .division_footer {
@@ -494,7 +494,7 @@ textarea {
     margin-left: 15px;
     color: #2663eb;
     padding: 15px 32px;
-    background: #feffff;
+    background: #ffffff;
     border: 1.6px solid #2663eb;
     border-radius: 10px;
     cursor: pointer;
@@ -555,13 +555,14 @@ textarea {
   width: 84%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 40px;
 }
 
 .copyright {
   text-align: center;
   font-size: 18px;
   color: #9ca3af;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .introduction .button_white button {
   font-family: "Inter", sans-serif;

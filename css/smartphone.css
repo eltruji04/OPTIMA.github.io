@@ -100,6 +100,7 @@
     cursor: pointer;
     transition: all 0.3s ease 0s;
     box-sizing: border-box;
+    margin-top: 10px;
 }
 
 .button_white_smartphone button:hover {
