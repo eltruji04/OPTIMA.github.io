@@ -31,6 +31,25 @@
   }
 }
 
+.logo {
+  display: inline-block;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo {
+  display: inline-block;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
 
 /* Ensures the entire screen is used */
 * {
