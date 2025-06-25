@@ -147,6 +147,7 @@ body {
   height: 700px;
   position: static;
   align-items: center;
+  justify-content: center;
   display: flex;
   padding: 6%;
 }
@@ -175,7 +176,6 @@ body {
 .introduction-text {
   margin-top: 20px;
   margin-bottom: 40px;
-  margin-right: 10px;
 }
 
 .container {
