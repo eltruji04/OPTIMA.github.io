@@ -293,6 +293,11 @@
     width: 36px;
 }
 
+.logo_x_smartphone {
+    margin-top: 10px;
+    width: 30px;
+}
+
 .footer-divider_smartphone {
     border: none;
     border-top: 1.6px solid #282d35;

@@ -549,6 +549,12 @@ textarea {
   width: 50px;
 }
 
+.logo_x {
+  margin-top: 10px;
+  width: 44px;
+  margin-left: 6px;
+}
+
 .footer-divider {
   border: none;
   border-top: 1.2px solid #282d35;
